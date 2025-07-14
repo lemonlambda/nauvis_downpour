@@ -20,7 +20,7 @@ data:extend{
             priority = "high",
             animation_speed = 0.0001,
             scale = 0.5,
-            filename = "__nauvis_rain__/graphics/rain.png",
+            filename = "__nauvis_downpour__/graphics/rain.png",
             flags = { "smoke" }
         }
     }
@@ -29,7 +29,7 @@ data:extend{
 nauvis.persistent_ambient_sounds = nauvis.persistent_ambient_sounds or {}
 nauvis.persistent_ambient_sounds.semi_persistent = {
     {sound = 
-      {filename = "__nauvis_rain__/sounds/rain.ogg", volume = 0.2}
+      {filename = "__nauvis_downpour__/sounds/rain.ogg", volume = 0.2}
     } 
 }
 
